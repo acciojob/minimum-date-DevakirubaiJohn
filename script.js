@@ -1,6 +1,4 @@
 function minDate(dates) {
-  //write you code here
-
   let min = new Date(dates[0]);
 
   for (let i = 1; i < dates.length; i++) {
@@ -11,7 +9,6 @@ function minDate(dates) {
   }
 
   return min.toISOString().split('T')[0];
-}
 }
 
 // Do not change the code
